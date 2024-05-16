@@ -27,10 +27,10 @@ def main():
         print("Menu:")
         print("1. Adicionar Aluno")
         print("2. Remover Aluno")
-        print("3. Visualizar Alunos")
-        print("4. Sair")
+        print("3. Lista de Alunos")
+        print("4. Encerrar")
 
-        escolha = input("Escolha uma das opções: ")
+        escolha = input("Escolha uma opção: ")
 
         if escolha == "1":
             adicionar_alunos(registro_alunos)
